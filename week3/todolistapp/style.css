@@ -1,0 +1,99 @@
+*{
+
+    margin: 0;
+    padding: 0;
+}
+    .input {
+        margin-top: 2%;
+        margin-left: 43%;
+}
+
+#button {
+    background-color: #0000FF;
+    border-radius: 5px;
+    border: 1px solid blue;
+    color: white;
+    font-size: 20px;
+    width: 80px;
+    height: 36px;
+}
+#button:hover{
+    background-color: #0000FF;
+}
+#button:active{
+    background-color: blue;
+    border: 2px solid blue;
+}
+#new_task:hover{
+    background-color: #ffffff ;
+    border: 1.5px solid gray;
+}
+#new_task {
+    border-radius: 5px;
+    border: 1.5px solid gray;
+    font-size: 20px;
+    margin-top: 15px;
+    margin-left: -65px;
+    padding: 5px;
+}
+
+.header {
+    background-image: linear-gradient(to right, black, black);
+    color: black;
+    height: 80px;
+    text-align: left;
+    font-size: 28px;
+    display: flex;
+}
+.listclr{  
+color: white;
+
+}
+
+
+#list {
+    margin-top: 50px;
+}
+
+.del{
+    border-radius: 5px;
+    border: .5px solid red;
+    padding: 3px 4px 3px;
+    background-color: #ff0000;
+    color : white;
+    margin-top: 13px;
+    font-size: 18px;
+}
+.del:hover{
+    background-color: #ff0000;
+    border: 1.5px solid red;
+}
+
+.checkbox {
+    height: 25px;
+    width: 25px;
+    margin-top: 15px;
+    margin-left: 20px;
+    margin-bottom: 15px;
+    float: left;
+    background-color: #0000FF;
+}
+
+#list div {
+    display: block;
+    float: left;
+}
+
+#list p {
+    font-size: 20px;
+    width: 550px;
+    margin-left : 20px; 
+    margin-top: 15px;
+}
+
+.any_task {
+    border : .5px solid #A9A9A9;
+    width : 50%;
+    margin-left : 25%;
+    margin-top: 2px;
+}
